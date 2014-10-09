@@ -1,5 +1,7 @@
 package e_book.glava_3;
 
+import java.util.Scanner;
+
 /**
  * Created by Alexandr on 07.10.2014.
  */
