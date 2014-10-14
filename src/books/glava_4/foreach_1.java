@@ -1,0 +1,15 @@
+package books.glava_4;
+import java.util.*;
+/**
+ * Created by Alexandr on 14.10.2014.
+ */
+public class foreach_1 {
+    public static void main(String[] args){
+        Random rand = new Random(47);
+        float f[] = new float[10];
+        for(int i = 0; i<10;i++)
+            f[i] = rand.nextFloat();
+        for (float x : f)
+            System.out.println(x);
+    }
+}
