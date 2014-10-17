@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by Alexandr on 16.10.2014.
  */
-public class lesson_6_4_max_4number_input {
+public class lesson_6_2_max_4number_input {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
