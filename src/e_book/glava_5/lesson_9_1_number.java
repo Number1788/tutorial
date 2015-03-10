@@ -7,6 +7,7 @@ import java.util.Scanner;
  */
 public class lesson_9_1_number {
 
+
     static int number(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Vvedite kolijestvo");
@@ -25,9 +26,16 @@ public class lesson_9_1_number {
         return array;
     }
 
-    public static void main(String[] args){
+    static  int[] array_sort(int[] array,int i){
+        int[] sort;
+        sort=new  int[i];
 
-        int[] array1 = aray_number(number());
+
+    }
+
+    public static void main(String[] args){
+        int number = number();
+        int[] array1 = aray_number(number);
 
 
     }
